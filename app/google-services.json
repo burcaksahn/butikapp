@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "761509912859",
+    "firebase_url": "https://butik-project-default-rtdb.firebaseio.com",
+    "project_id": "butik-project",
+    "storage_bucket": "butik-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761509912859:android:81bfc3034bc976c3b073be",
+        "android_client_info": {
+          "package_name": "com.example.butikapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761509912859-7ilsg289c8doitdafvdf37oej2476056.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD41NQ6vA7QofvcIQqOYBu2qHgTXcgwKIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761509912859-7ilsg289c8doitdafvdf37oej2476056.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
