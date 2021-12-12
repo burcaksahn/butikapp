@@ -53,6 +53,11 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    implementation 'com.google.firebase:firebase-common-ktx:20.0.0'
+    implementation 'com.google.firebase:firebase-database-ktx:20.0.3'
+    implementation 'com.google.firebase:firebase-storage-ktx:20.0.0'
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.0.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:21.0.1'
     // annotationProcessor 'androidx.room:room-compiler:2.3.0'
     kapt "com.google.dagger:dagger-android-processor:$dagger_support_version"
     kapt "com.google.dagger:dagger-compiler:$dagger_compiler_version"
