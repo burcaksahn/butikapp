@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ButikApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_name">Kullanıcı adı</string>
+    <string name="user_password">Şifre</string>
+    <string name="welcome_message">Burçiks Butik</string>
+    <string name="forgot_password">Şifrenizi mi unuttunuz? :) </string>
+
 </resources>
