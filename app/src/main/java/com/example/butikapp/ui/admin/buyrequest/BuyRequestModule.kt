@@ -8,6 +8,6 @@ import dagger.multibindings.IntoMap
 abstract class BuyRequestModule {
     @Binds
     @IntoMap
-    @ViewModelKey(BuyRequestViewModule::class)
-    internal abstract fun BuyRequestViewModule(viewModel: BuyRequestViewModule): ViewModel
+    @ViewModelKey(BuyRequestViewModel::class)
+    internal abstract fun BuyRequestViewModule(viewModel: BuyRequestViewModel): ViewModel
 }
