@@ -34,5 +34,5 @@ interface AppComponent {
     fun inject(mainActivity: MainActivity)
     fun inject(addClothesFragment: AddClothesFragment)
     fun inject(buyRequestFragment: BuyRequestFragment)
-    fun inject(adminPanelFragment: AdminPanelFragment)
+ fun inject(adminPanelFragment: AdminPanelFragment)
 }

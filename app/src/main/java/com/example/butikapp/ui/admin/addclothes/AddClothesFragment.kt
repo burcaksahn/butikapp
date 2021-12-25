@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import com.example.butikapp.R
 import com.example.butikapp.databinding.FragmentAddClothesBinding
@@ -35,12 +36,44 @@ class AddClothesFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         initialUI()
         initialVM()
+        clickListener()
     }
     private fun initialUI(){
         MyApp.appComponent.inject(this)
     }
     private fun initialVM(){
         viewModel= ViewModelProvider(this,viewModelFactory).get(AddClothesViewModel::class.java)
-    }
 
+    }
+    private fun clickListener(){
+        binding.imageView2.setOnClickListener{
+
+        }
+
+        binding.addClothesFragmentButton.setOnClickListener {
+            addClothe()
+
+        }
+    }
+    private fun addClothe(){
+        if(!binding.addClothesFragmentClothesNames.text.toString().isNullOrEmpty() &&
+                !binding.addClothesFragmentClothesCategory.text.toString().isNullOrEmpty()&&
+                    !binding.addClothesFragmentClothesSize.text.toString().isNullOrEmpty()&&
+                    !binding.addClothesFragmentClothesColor.text.toString().isNullOrEmpty()&&
+                    !binding.addClothesFragmentClothesPrice.text.toString().isNullOrEmpty()){
+        viewModel.addClothe(model = AddClothesModel(binding.addClothesFragmentClothesNames.text.toString(),
+            binding.addClothesFragmentClothesColor.text.toString(),
+            binding.addClothesFragmentClothesCategory.text.toString(),
+            binding.addClothesFragmentClothesPrice.text.toString(),
+            binding.addClothesFragmentClothesSize.text.toString(),
+            ""))
+        }else{
+            showWrongMessage(message =getString(R.string.add_card_fragment_emtpty_message))
+        }
+
+
+    }
+    private fun showWrongMessage(message:String){
+        Toast.makeText(context,message,Toast.LENGTH_SHORT).show()
+    }
 }

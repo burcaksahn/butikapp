@@ -6,4 +6,13 @@ import com.google.firebase.database.FirebaseDatabase
 import javax.inject.Inject
 
 class AddClothesViewModel @Inject constructor(val auth: FirebaseAuth, val firebaseDatabase: FirebaseDatabase): ViewModel(){
+
+    fun addClothe(model:AddClothesModel){
+
+
+    }
+    fun addClothePath(path:String){
+
+    }
+
 }

@@ -6,5 +6,14 @@
     <string name="user_password">Şifre</string>
     <string name="welcome_message">Burçiks Butik</string>
     <string name="forgot_password">Şifrenizi mi unuttunuz? :) </string>
+    <string name="login_fragment_wrong_empty_message">Please Fill In The Blanks</string>
+    <string name="login_fragment_authentication_fail_message">Authentication Error!!</string>
+    <string name="login_fragment_status_fail_message">Something wents wrong!!</string>
+    <string name="add_card_fragment_add_clothes_name">Clothe Name</string>
+    <string name="add_card_fragment_add_clothes_size">Clothe Size</string>
+    <string name="add_card_fragment_add_clothes_color">Clothe Color</string>
+    <string name="add_card_fragment_add_clothes_price">Clothe Price</string>
+    <string name="add_card_fragment_add_clothes_category">Clothe Cstegory</string>
+    <string name="add_card_fragment_emtpty_message">Please fill in the all blanks</string>
 
 </resources>

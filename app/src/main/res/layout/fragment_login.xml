@@ -9,14 +9,13 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="312dp"
+        android:layout_height="68dp"
         android:layout_marginTop="72dp"
-        android:layout_marginBottom="10dp"
         android:background="@color/white"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:textColor="@color/black"
         android:hint="@string/user_name"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,11 +23,11 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="301dp"
+        android:layout_height="60dp"
         android:layout_marginTop="10dp"
         android:background="@color/white"
-        android:ems="10"
+        android:textColor="@color/black"
         android:hint="@string/user_password"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,27 +35,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="94dp"
-        tools:src="@tools:sample/avatars" />
-
     <TextView
         android:id="@+id/textView"
-        android:layout_width="171dp"
-        android:layout_height="39dp"
+        android:layout_width="246dp"
+        android:layout_height="67dp"
         android:layout_marginTop="20dp"
-        android:text="@string/welcome_message"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:textColor="@color/burciksbutikcolor"
         android:background="@color/white"
+        android:text="@string/welcome_message"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/burciksbutikcolor"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
