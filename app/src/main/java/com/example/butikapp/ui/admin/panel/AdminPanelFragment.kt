@@ -38,6 +38,7 @@ class AdminPanelFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         initialUI()
         initialVM()
+        initialRecycler()
     }
     private fun initialUI(){
         MyApp.appComponent.inject(this)

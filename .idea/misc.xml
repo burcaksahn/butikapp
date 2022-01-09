@@ -6,8 +6,11 @@
         <entry key="..\:/Users/burca/AndroidStudioProjects/ButikApp/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/burca/AndroidStudioProjects/ButikApp/app/src/main/res/layout/fragment_add_clothes.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/burca/AndroidStudioProjects/ButikApp/app/src/main/res/layout/fragment_admin_panel.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/burca/AndroidStudioProjects/ButikApp/app/src/main/res/layout/fragment_buy_request.xml" value="0.21458333333333332" />
         <entry key="..\:/Users/burca/AndroidStudioProjects/ButikApp/app/src/main/res/layout/fragment_login.xml" value="0.264" />
         <entry key="..\:/Users/burca/AndroidStudioProjects/ButikApp/app/src/main/res/layout/fragment_splash_screen.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/burca/AndroidStudioProjects/ButikApp/app/src/main/res/layout/item_admin_panel.xml" value="0.11197916666666667" />
+        <entry key="..\:/Users/burca/AndroidStudioProjects/ButikApp/app/src/main/res/layout/item_buy_request.xml" value="0.21458333333333332" />
         <entry key="..\:/Users/burca/AndroidStudioProjects/ButikApp/app/src/main/res/layout/item_panel_layout.xml" value="0.7305825242718447" />
         <entry key="..\:/Users/burca/AndroidStudioProjects/ButikApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21875" />
         <entry key="..\:/Users/burca/AndroidStudioProjects/ButikApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />

@@ -10,8 +10,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.butikapp.R
 import com.example.butikapp.ui.admin.panel.AdminPanelModel
 
-class DetailProductAdapter(
-) : ListAdapter<AdminPanelModel, DetailProductAdapter.FragmentHolder>(
+class AdminPanalAdapter(
+) : ListAdapter<AdminPanelModel, AdminPanalAdapter.FragmentHolder>(
     diffCallback
 ) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FragmentHolder {
